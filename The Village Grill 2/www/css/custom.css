@@ -1,0 +1,44 @@
+.pswp__caption__center {
+    color: #ccc;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 auto;
+    max-width: 844px !important;
+    min-width: 563px !important;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.pswp__caption small {
+    color: #bbb;
+    display: none;
+    font-size: 11px;
+}
+
+.pswp__caption {
+    bottom: 0;
+    left: 0;
+    min-height: 44px;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+
+.section--head {
+    background: none repeat scroll 0 0 #fefefe !important;
+    margin: 0;
+    padding: 2px 0 !important;
+}
+
+.pswp img {
+    border: 10px solid #fff !important;
+    max-width: none;
+    top: -5% !important;
+}
+
+
+.pswp__ui--fit .pswp__top-bar,  {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
