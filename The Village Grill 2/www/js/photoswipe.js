@@ -314,7 +314,7 @@ var _options = {
 	spacing: 0.12,
 	bgOpacity: 0.9,
 	mouseUsed: false,
-	loop: true,
+	loop: false,
 	pinchToClose: true,
 	closeOnScroll: true,
 	closeOnVerticalDrag: true,
