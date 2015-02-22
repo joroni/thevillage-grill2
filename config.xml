@@ -98,6 +98,7 @@
 <icon src="platforms/ios7/icons/icon-40.png" gap:platform="ios" width="40" height="40" />
 <icon src="platforms/ios7/icons/icon-40@2x.png" gap:platform="ios" width="80" height="80" />
 
+<gap:splash src="splash.png" />
 
 
 
@@ -134,7 +135,10 @@
     <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
     <gap:splash gap:platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />-->
 	
-	<gap:splash src="platforms/android/splash/320x200.png" gap:platform="android" gap:qualifier="ldpi" />
+
+ 
+    
+    <gap:splash src="platforms/android/splash/320x200.png" gap:platform="android" gap:qualifier="ldpi" />
 	<gap:splash src="platforms/android/splash/320x200.png" gap:platform="android" gap:qualifier="mdpi" />
 	<gap:splash src="platforms/android/splash/320x200.png" gap:platform="android" gap:qualifier="hdpi" />
 	<gap:splash src="platforms/android/splash/960x640.png" gap:platform="android" gap:qualifier="xhdpi" />
