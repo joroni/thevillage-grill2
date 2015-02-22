@@ -246,7 +246,7 @@ div#navmenu.sideajax div#banner {
     height:127px;
 }
 nav#cd-lateral-nav {
-  /*  height: 600px !important;*/
+ height: 600px !important;
     overflow-y: auto;
     position: relative !important;
     top: 200px !important;
