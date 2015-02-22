@@ -246,7 +246,7 @@ div#navmenu.sideajax div#banner {
     height:127px;
 }
 nav#cd-lateral-nav {
- height: 600px !important;
+    height: 600px !important;
     overflow-y: auto;
     position: relative !important;
     top: 200px !important;
@@ -452,5 +452,14 @@ a.item-prod.box img.example-image{
 
 
 
-
+.pswp__caption {
+    background-color: rgba(0, 0, 0, 0.68) !important;
+    bottom: 0;
+    left: 0;
+    min-height: 44px;
+    padding-bottom: 40px !important;
+    padding-top: 20px !important;
+    position: absolute;
+    width: 100%;
+}
 

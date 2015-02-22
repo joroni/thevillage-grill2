@@ -141,11 +141,20 @@ font-size:1.7em !important;
 color:#333;
 font-weight:100;
 }*/
-div#priceBox p.item_price {
+/*div#priceBox p.item_price {
     color: #fff !important;
     font-family: "Roboto",sans-serif;
     font-size: 2em !important;
     font-weight: 100;
+    line-height: 1em !important;
+}*/
+
+
+div#priceBox p.item_price {
+    color: #ccc !important;
+    font-family: "Roboto",sans-serif;
+    font-size: 1.7em !important;
+    font-weight: 300;
     line-height: 1em !important;
 }
 
@@ -564,11 +573,20 @@ div.englang h1#prodName.name {
     max-width: 250px;
     text-align: left !important;
 }
-div.englang div.description {
+/*div.englang div.description {
     float: left;
     font-kerning: auto;
     font-size: 1.2em;
     font-weight: 100;
+    line-height: 1em;
+    text-align: left !important;
+    width: 100%;
+}*/
+div.englang div.description {
+    float: left;
+    font-kerning: auto;
+    font-size: 1.4em;
+    font-weight: 500;
     line-height: 1em;
     text-align: left !important;
     width: 100%;
