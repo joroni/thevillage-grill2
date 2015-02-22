@@ -27,6 +27,22 @@
     <script src="js/photoswipe-ui-default.js"></script>
     <script type="text/javascript" src="js/navigation.js" charset="utf-8"></script>
  
+ 
+<script>
+    var stuff = {};
+$('#cd-lateral-nav').on('touchstart',stuff,function(e){
+  e.data.max = this.scrollHeight - this.offsetHeight;
+  e.data.y = e.originalEvent.pageY;
+}).on('touchmove',stuff,function(e){
+  var dy = e.data.y - e.originalEvent.pageY;
+  // if scrolling up and at the top, or down and at the bottom
+  if((dy < 0 && this.scrollTop < 1)||(dy > 0 && this.scrollTop >= e.data.max)){
+    e.preventDefault();
+  };
+});
+</script>
+
+      
    <script type="text/javascript">
     $(function() {
 		$("li.cd-single-item-wrapper").click(function(e) {
@@ -126,7 +142,7 @@
 				<h1><img id="applogo" src="img/logo.png" style="cursor:pointer;"/></h1>
 				</header>
 					</div>
-                <nav id="cd-lateral-nav" class="lateral-menu-is-open">
+                <nav id="cd-lateral-nav" class="lateral-menu-is-open"  style="-webkit-overflow-scrolling: touch;">
                                  
     <div id="nav">
 <ul class='cd-navigation'><li id=00 class=item-has-children
