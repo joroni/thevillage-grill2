@@ -37,7 +37,7 @@ ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
 /*#w #pagebody { position: relative; left: 0; max-width: 640px; min-width: 320px; z-index: 99999; }*/
 /*#w #pagebody { position: relative; left: 0; max-width: 760px !important; min-width: 760px; z-index: 99999; }
  #w #navmenu, #w nav#cd-lateral-nav { background: url("../img/img-2.jpg") repeat fixed 1204px 881px #f4f4de !important; min-height: 760px; max-height: 800px; display: block; position: fixed; overflow-y:scroll; width: 255px !important; left: 0px !important; top: 0px !important; z-index: 0;  }*/
-#w #navmenu, #w nav#cd-lateral-nav { background: /*url("../img/panel-lining-300.jpg") repeat-y scroll -44px 0*/ #212121 !important; min-height: 480px; max-height: 800px; display: block; width: 255px !important; left: 0px !important; top: 0px !important; z-index: 0;  }
+
 
 #w {
     border: 1px solid #ccc;

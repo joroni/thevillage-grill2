@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Scrollnav Test Suite</title>
+ <link type="text/css" rel="stylesheet" media="all" href="css/menu-gallery.css" @charset="utf-8";>
+  <link type="text/css" rel="stylesheet" media="all" href="css/custom.css" @charset="utf-8";>
+  <!-- Load local lib and tests. -->
+  <script src="js/jquery.scrollNav.js"></script>
+
+  <!-- Removing access to jQuery and $. But it'll still be available as _$, if
+       you REALLY want to mess around with jQuery in the console. REMEMBER WE
+       ARE TESTING A PLUGIN HERE, THIS HELPS ENSURE BEST PRACTICES. REALLY. -->
+  <script>window._$ = jQuery.noConflict(true);
+    $('.post__article').scrollNav();
+</script>
+</head>
+<!--<body>
+ <div class="main">
+    <article class="post__article">
+        <header class"post__header">
+            <h1 class="post__heading">This is the main heading for the article</h1>
+            <p class="post__sub-heading">This is a sub-heading for the article</p>
+        </header>
+        <p>Yada yada yada...</p>
+        <h2>This is a section heading</h2>
+        <p>More yada yada...</p>
+        <h2>Another section heading</h2>
+        <p>More more yada...</p>
+    </article>
+</div>
+</body>
+-->
+
+<body>
+	<header class="page__header" role="banner">
+		<h1 class="page__title"><span>scrollNav.js</span></h1>
+	</header>
+
+	<div class="main" role="main">
+		<h2 class="overview">A simple jQuery plugin that auto builds scrolling navigation menus</h2>
+
+		<ul class="all-yours">
+			<li class="your-item">
+				<a href="http://scrollnav.com/releases/latest/scrollNav.js.zip" class="grab-it">Grab the Source</a>
+			</li>
+			<li class="your-item">
+				<a href="https://github.com/jimmynotjim/scrollNav" class="fork-it">Fork the Repo</a>
+			</li>
+		</ul>
+
+		<article class="post__article">
+
+			<h2>Description</h2>
+			<p>scrollNav is a light jQuery plugin that grabs your page's existing content, divides it up into logical sections and builds a customizable scrolling sidebar navigation. Scroll this page and watch the nav follow along with you.</p>
+
+			<h2>Features</h2>
+			<ul class="features-list">
+				<li class="feature simple">
+					<h3>Simple to setup</h3>
+					<p>A single file import and function in your footer and you're on your way.</p>
+				</li>
+				<li class="feature customize">
+					<h3>Fully Customizable</h3>
+					<p>All the styling is up to you and the few bits controled by the plugin are editable</p>
+				</li>
+				<li class="feature size">
+					<h3>Tiny Size</h3>
+					<p>Damn right it's fast! At 1.5kb min'd and GZip'd, scrollNav is pretty unintrusive.</p>
+				</li>
+			</ul>
+
+			<h2>Usage</h2>
+
+			<h3>Import</h3>
+
+			<p>Start by importing the script to your page, the best location is in the footer, but no matter what, make sure it follows your jQuery file.</p>
+
+			<pre>&lt;script src=&quot;jquery.scrollNav.min.js&quot;&gt;&lt;/script&gt;</pre>
+
+			<h3>Build your page</h3>
+
+			<p>Include a class or id hook on the element you want to apply the plugin to and include an <code>&lt;h2&gt;</code> for section headings you want to inlcude in the navigation.</p>
+
+</article>
+</div>
+</body>
+
+</html>

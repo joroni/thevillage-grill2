@@ -13,12 +13,12 @@
       <link href="css/default-skin/default-skin.css" rel="stylesheet" />
       <link href="css/site.css" rel="stylesheet" />
        <link href="css/phototweak.css" rel="stylesheet" />
-    <link type="text/css" rel="stylesheet" media="all" href="css/custom.css" @charset="utf-8";>
-    <link type="text/css" rel="stylesheet" media="all" href="css/slideshow.css" @charset="utf-8";>
-    <link type="text/css" rel="stylesheet" media="all" href="css/plainmodal.css" @charset="utf-8";>
-    <link type="text/css" rel="stylesheet" media="all" href="css/menu-gallery.css" @charset="utf-8";>
-    <link type="text/css" rel="stylesheet" media="all" href="css/style.css" @charset="utf-8";>
-    <link type="text/css" rel="stylesheet" media="all" href="css/responsive.css" @charset="utf-8";>
+    <link type="text/css" rel="stylesheet" media="all" href="css/custom.css" >
+    <link type="text/css" rel="stylesheet" media="all" href="css/slideshow.css" >
+    <link type="text/css" rel="stylesheet" media="all" href="css/plainmodal.css" >
+    <link type="text/css" rel="stylesheet" media="all" href="css/menu-gallery.css" >
+    <link type="text/css" rel="stylesheet" media="all" href="css/style.css" >
+    <link type="text/css" rel="stylesheet" media="all" href="css/responsive.css" >
     <script type="text/javascript" src="js/jquery.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/script.js" charset="utf-8"></script>
     <script src="js/jquery.mobile-1.4.5.min.js" charset="utf-8"></script>
@@ -26,23 +26,9 @@
    	<script src="js/photoswipe.js"></script>
     <script src="js/photoswipe-ui-default.js"></script>
     <script type="text/javascript" src="js/navigation.js" charset="utf-8"></script>
- 
- 
-<script>
-    var stuff = {};
-$('#cd-lateral-nav').on('touchstart',stuff,function(e){
-  e.data.max = this.scrollHeight - this.offsetHeight;
-  e.data.y = e.originalEvent.pageY;
-}).on('touchmove',stuff,function(e){
-  var dy = e.data.y - e.originalEvent.pageY;
-  // if scrolling up and at the top, or down and at the bottom
-  if((dy < 0 && this.scrollTop < 1)||(dy > 0 && this.scrollTop >= e.data.max)){
-    e.preventDefault();
-  };
-});
-</script>
+<!--     <script src="js/jquery.scrollNav.js"></script>-->
 
-      
+ 
    <script type="text/javascript">
     $(function() {
 		$("li.cd-single-item-wrapper").click(function(e) {
@@ -142,7 +128,7 @@ $('#cd-lateral-nav').on('touchstart',stuff,function(e){
 				<h1><img id="applogo" src="img/logo.png" style="cursor:pointer;"/></h1>
 				</header>
 					</div>
-                <nav id="cd-lateral-nav" class="lateral-menu-is-open"  style="-webkit-overflow-scrolling: touch;">
+                <nav id="cd-lateral-nav" class="lateral-menu-is-open" style="-webkit-overflow-scrolling: touch;">
                                  
     <div id="nav">
 <ul class='cd-navigation'><li id=00 class=item-has-children

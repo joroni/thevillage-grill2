@@ -601,7 +601,17 @@ div.englang div.pName {
 div.arlang div.pName {
 	float:right;
 }
- span.lb-caption div.englang div#priceBox, div.englang div#priceBox {
+/*div.pswp__caption__center div.arlang div#priceBox {
+    border-left: 0 solid #333;
+    float: left;
+    line-height: 2em;
+    margin-left: 10px;
+    margin-top: 0;
+    padding-left: 10px;
+}
+*/
+
+ span.lb-caption div.englang div#priceBox {
     border-left: 0px solid #333;
     float: left;
     line-height: 2em;
@@ -620,7 +630,7 @@ div.arlang div.pName {
     margin-top: 0;
     padding-right: 10px;
 }
-div.prod-details.focal div.arlang div#priceBox p.item_price {
+div.pswp__caption__center div.arlang div#priceBox p.item_price {
     border-right: 2px solid #333 !important;
     float: right;
     font-family: "Tahoma",sans-serif !important;
@@ -629,6 +639,18 @@ div.prod-details.focal div.arlang div#priceBox p.item_price {
     margin-top: 0;
 	padding-right:5px;
 }
+
+ div.englang div#priceBox p.item_price {
+    border-left: 2px solid #333 !important;
+    float: left;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 1.8em !important;
+    margin-left: 10px;
+    margin-top: 0;
+	padding-left:5px;
+}
+
+
 li.item-has-children {
 	background:url("../img/a22.png") no-repeat scroll 210px 17px transparent;
 }

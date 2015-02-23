@@ -77,11 +77,11 @@ ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
 /*#w #pagebody { position: relative; left: 0; max-width: 640px; min-width: 320px; z-index: 99999; }*/
 /*#w #pagebody { position: relative; left: 0; max-width: 760px !important; min-width: 760px; z-index: 99999; }
  #w #navmenu, #w nav#cd-lateral-nav { background: url("../img/img-2.jpg") repeat fixed 1204px 881px #f4f4de !important; min-height: 760px; max-height: 800px; display: block; position: fixed; overflow-y:scroll; width: 255px !important; left: 0px !important; top: 0px !important; z-index: 0;  }*/
-#w #navmenu, #w nav#cd-lateral-nav { background: url("../img/img-1.jpg") repeat fixed 1204px 881px #252525 !important; min-height: 0 !important; max-height: 100%; display: block; width: 255px !important; left: 0px !important; top: 0px !important; z-index: 0;  }
+
 
 #w {
     border: 1px solid #ccc;
-    height: 768px !important;
+    /*height: 768px !important;*/
     overflow-x: hidden;
     overflow-y: auto !important;
     position: fixed !important;
@@ -245,14 +245,7 @@ div#navmenu.sideajax div#banner {
     z-index:2000;
     height:127px;
 }
-nav#cd-lateral-nav {
-    height: 600px !important;
-    overflow-y: auto;
-    position: relative !important;
-    top: 200px !important;
-/*    z-index: 1800 !important;*/
-	 -webkit-overflow-scrolling: touch !important; 
-}
+
 /*#w #navmenu.sideajax ul {
  background: none repeat scroll 0 0 #475566;
  height: 100%;
@@ -276,7 +269,31 @@ nav#cd-lateral-nav {
  /*   text-transform: lowercase !important;*/
 }
 
+#w #navmenu {
+    background: url("../img/img-1.jpg") repeat fixed 1204px 881px #252525 !important;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 255px !important;
+    z-index: 0;
+}
+ 
 
+nav#cd-lateral-nav {
+/*    background: url("../img/img-1.jpg") repeat fixed 1204px 881px #252525 !important;*/
+	 background: none !important;
+    display: block;
+    min-height: 400px !important;
+	max-height: 600px !important;
+    left: 0 !important;
+    overflow-y: auto;
+    position: fixed;
+    top: 0 !important;
+    width: 255px !important;
+    z-index: 0;
+}
 
 /*#w #navmenu.sideajax ul li a
  {
@@ -457,9 +474,8 @@ a.item-prod.box img.example-image{
     bottom: 0;
     left: 0;
     min-height: 44px;
-    padding-bottom: 40px !important;
-    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-top: 10px !important;
     position: absolute;
     width: 100%;
 }
-
